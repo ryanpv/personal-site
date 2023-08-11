@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.ce974286.css",
+    "main.js": "/static/js/main.37087929.js",
+    "static/media/WorldAnime-Screenshot.jpg": "/static/media/WorldAnime-Screenshot.6cf523509ed67e125430.jpg",
+    "static/media/RV SWE Resume.pdf": "/static/media/RV SWE Resume.8046b7e2410b3fc8346a.pdf",
+    "static/media/Reddit-bookmark-manager-screenshot.jpg": "/static/media/Reddit-bookmark-manager-screenshot.017663551e3f42eaf049.jpg",
+    "static/media/profile-photo.jpeg": "/static/media/profile-photo.ac093b861db16b19c276.jpeg",
+    "index.html": "/index.html",
+    "main.ce974286.css.map": "/static/css/main.ce974286.css.map",
+    "main.37087929.js.map": "/static/js/main.37087929.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ce974286.css",
+    "static/js/main.37087929.js"
+  ]
+}
