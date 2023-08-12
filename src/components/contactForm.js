@@ -32,16 +32,16 @@ export const ContactUs = () => {
   };
 
   return (
-    <div className="container w-full h-screen p-16">
-      <div className='flex grid grid-rows-12 grid-flow-row gap-5 p-10'>
+    <div className="container w-screen h-screen p-16">
+      <div className='grid grid-rows-12 grid-flow-row gap-5'>
         <div>
           <h1 className='flex justify-center text-white text-center text-5xl font-extrabold underline'>Reach Out To Me!</h1>
           <p className='text-center text-white mt-4'>Send me a message about anything you'd like to chat about!</p>
         </div>
         
-        <div className='flex justify-center row-start-6'>
-          <div className='w-3/4 h-screen'>
-            <form ref={formRef} onSubmit={sendEmail} className="dark:bg-slate-500 shadow rounded px-8 pt-6 pb-8 mb-4">
+        <div className='row-start-6'>
+          <div className='flex-auto h-screen'>
+            <form ref={formRef} onSubmit={sendEmail} className="dark:bg-slate-500 shadow rounded px-4 pt-6 pb-8 mb-4">
         {/* *****name input*****  */}
               <div className="mb-4">
                 <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="name">
