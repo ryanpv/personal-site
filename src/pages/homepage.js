@@ -46,6 +46,13 @@ export default function Homepage() {
               <br></br>
               <br></br>
 
+              <strong>What I'm currently working on:</strong>
+              <br></br>
+              Currently I've been learning on how video streaming works. Using HLS format, I am leveraging certain AWS services such as Cloudfront CDN, S3, and Lambda to create a video streaming server. 
+              This project will allow users to store and serve video content more securely while having scaling capabilities.
+              <br></br>
+              <br></br>
+
               I'm always open to connect and have a chat so send me a message!
             </p>
           </div>
