@@ -15,7 +15,7 @@ export default function Homepage() {
           <div className='flex justify-center mb-10'>
             <a className='mx-2 flex flex-col items-center' href={require("../RV SWE Resume.pdf")} target='_blank' rel='noreferrer'>
               <AiOutlineFilePdf size="30" /> 
-                <strong>Resume</strong>
+              <strong>Resume</strong>
             </a>
             <a className='mx-2 flex flex-col items-center' href='https://github.com/ryanpv' target='_blank' rel='noreferrer'>
               <VscGithub size="30" />

@@ -1,7 +1,7 @@
 import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
-export const ContactUs = () => {
+export default function ContactUs () {
   const formRef = useRef();
   const nameRef = useRef();
   const emailRef = useRef();
