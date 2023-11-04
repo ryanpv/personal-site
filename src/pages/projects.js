@@ -81,7 +81,13 @@ export default function PersonalProjects() {
                       </h2>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-500 dark:text-gray-400'>
-                      This project </p>
+                    This is a project I developed to serve as a video streaming server built with ExpressJS that also utilizes AWS services to optimize video streaming securely. It also includes functionality to convert media files, such as .MOV and .MP4, to HLS protocol and uploading directly to AWS S3. Other AWS services include CloudFront, API gateway, and Lambda. To learn more about how AWS was integrated, check out the blog post by clicking the link below.</p>
+                    <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='#blogs/video-streaming-server' target='_blank' rel='noreferrer'>
+                      <div className='flex m'>
+                        <BsArrowRight />
+                        &nbsp; Check out the blog post
+                      </div>
+                    </a>
                     <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/node-video-streamer' target='_blank' rel='noreferrer'>
                       <div className='flex m'>
                         <BsArrowRight />

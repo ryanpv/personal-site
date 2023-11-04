@@ -33,7 +33,6 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              
               href="#about"
             >
               <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Home</span>
@@ -42,7 +41,6 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-  
               href="#projects"
             >
               <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Projects</span>
@@ -51,7 +49,7 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href="#blogs"
+              href="/blogs"
             >
               <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Blogs</span>
             </a>

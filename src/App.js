@@ -1,15 +1,15 @@
 import Navbar from "./components/navbar";
-import Homepage from "./pages/homepage";
-import { ScrollerHandler } from "./components/scrollHandler";
-import ContactUs from "./components/contactForm";
-import PersonalProjects from "./pages/projects";
-import { useLocation } from "react-router-dom";
-import BlogList from "./components/blogList";
+import { useLocation, useParams, Routes, Route } from "react-router-dom";
+import BlogList from "./pages/blogList";
+import MainPage from "./components/mainPage";
+import VideoStreamerBlog from "./components/video-streamer-blog";
 
 
 function App() {
   const pathname= useLocation();
+  const params = useParams();
   console.log("pathname: ", pathname.pathname)
+  console.log("useparams: ", params)
 
   return (
     <>
@@ -17,38 +17,12 @@ function App() {
         <Navbar />
       </div>
 
-{ pathname.pathname === "blogs" ? 
-      <section id="blogs">
-        <div>
-          <BlogList />
-        </div>
-      </section>
-      :
-    <>
-      <section id="homepage">
-        <div>
-          <Homepage />
-        </div>
-      </section>
-
-      <section id="projects">
-        <div>
-          <PersonalProjects />
-        </div>
-      </section>
-
-      <section id="contact">
-        <div>
-          <ContactUs />
-        </div>
-      </section>
-    </>
-}
-
-      
-
-
-      <ScrollerHandler />
+      <Routes>
+        <Route exact path='/' element={ <MainPage /> } />
+        <Route path="/blogs" element={ <BlogList /> } >
+        </Route>
+          <Route path="/blogs/item1" element={ <VideoStreamerBlog /> } />
+      </Routes>
     </>
   );
 }

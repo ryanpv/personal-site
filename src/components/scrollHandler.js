@@ -6,7 +6,7 @@ export const ScrollerHandler = ({ children }) => {
 
   const handleScroll = () => {
     const element = document.getElementById(pathname.replace("#", ""));
-
+console.log("scroll location: ", pathname.replace("/", ""))
     setTimeout(() => {
       window.scrollTo({
         behavior: "smooth",
