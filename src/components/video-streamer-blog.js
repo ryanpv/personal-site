@@ -104,7 +104,9 @@ export default function VideoStreamerBlog() {
           With the IAM role already created, it can be selected under the “Change default execution role” drop down. 
           <br></br>
           <br></br>
-          The picture above is a screenshot of the Lambda function. To break down the business logic a bit further:
+          <img src={require("../HLS Lambda Func.png")} alt='Lambda function'/>
+
+          The picture above is a screenshot of the Lambda function. To store the private keys, users can use AWS SSM or Secrets Manager. To break down the business logic a bit further:
           <br></br>
           <br></br>
           1.	Using the AWS SDK, a GET request will be sent to S3 to retrieve the “.m3u8” playlist/manifest file. The file has a multiline format so the “transformToString()” method from the SDK will return as a multiline string.
@@ -128,7 +130,6 @@ export default function VideoStreamerBlog() {
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;i.	See link for proper response format: https://docs.aws. 	amazon.com/lambda/latest/dg/services-apigateway.html#apigateway-example-event 
           <br></br>
           <br></br>
-          INSERT THE LAMBDA FUNCTION PICTURE************
 
           <h3 className='text-white mb-1 mt-3 text-xl font-bold leading-8 tracking-tight'>
             <i>API GATEWAY SETUP PART 2:</i>
