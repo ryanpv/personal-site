@@ -1,8 +1,10 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
+import { useLocation } from 'react-router-dom';
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
+  const location = useLocation();
 
   return (
     <nav className="sticky top-0 relative flex flex-wrap items-center justify-between px-2 py-3 bg-slate-500 mb-3">
@@ -33,7 +35,7 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href="#about"
+              href={ location.pathname.includes("/blogs") ? "/#" : "#about" }
             >
               <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Home</span>
             </a>
@@ -41,7 +43,7 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href="#projects"
+              href={ location.pathname.includes("/blogs") ? "/#projects" : "#projects" }
             >
               <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Projects</span>
             </a>
@@ -57,7 +59,7 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href="#contact"
+              href={ location.pathname.includes("/blogs") ? "/#contact" : "#contact" }
             >
               <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Contact</span>
             </a>
