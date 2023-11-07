@@ -250,7 +250,7 @@ export default function VideoStreamerBlog() {
           the API gateway Lambda integration request configurations properly set up as well as Lambda’s “Resource-based policy statements” for invoke permissions, but the error persisted. Upon research, I found a simple 
           solution of providing the execution role with a permissions policy that specifies which services can invoke Lambda functions. Previously, the execution role used had the basic Lambda execution 
           role, which did not have the correct invocation permissions. In addition, the other 500 response I was receiving was due to API gateway not having permission to assume the provided role. The solution was also 
-          simple. API gateway needed to be added to the IAM role’s trust relationships list. I have provided in “IAM POLICIES SETUP” a link to this solution from AWS.
+          simple. API gateway needed to be added to the IAM role’s trust relationships list. I have provided a link to the solution from AWS in the “IAM POLICIES SETUP” section.
           <br></br>
           <br></br>
           2) The other significant problem I encountered was the 403 “Access denied” errors when attempting to fetch the “.ts” segment files of a video from the S3 bucket. This was a confusing error at first 

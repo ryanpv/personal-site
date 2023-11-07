@@ -1,70 +1,9 @@
-# Getting Started with Create React App
+# ExpressJS Video Streaming Server with AWS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This blog post discusses the architecture of my video streaming server that is built with ExpressJS. As the core architecture relies on some AWS services, I focus on how they were configured through the AWS console. The research phase for this topic was challenging for me because though there were many resources, most I came across were developed using different languages and libraries that had little support. However, I was able to put together the pieces by learning and understanding the concepts and technologies used. Therefore, this blog post will be a guide on this topic using Javascript. Additionally, many guides had skipped through some minor details of setting up the AWS services so I will try to go through the process step by step with each service I have integrated. Navigating back and forth between services will be necessary as the configurations are being completed. In the end I will also discuss some problems I faced during the development process.
 
-## Available Scripts
+## VIDEO FORMATTING:
 
-In the project directory, you can run:
+In this project, I use HTTP Live Streaming (HLS) protocol to serve videos to the client. This protocol splits the media files into separate shorter segments (“.ts” files) and creates a playlist/manifest (.m3u8) file. The manifest file describes the order, location, and other configurations of the media file, which are then sent to the client via HTTP. The “.ts” segments are retrieved from the same domain/resource path as the “.m3u8” file. It is far better performance to serve videos using this protocol compared to serving entire .mp4/.mov/etc files, which need to be completely downloaded before being able to play them. The segments are much smaller in size and are sent to the client via HTTP and allows the client to play the segments seamlessly. This is a much quicker method and provides better user experience.
 
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+In addition, I have implemented video upload functionality from the client, HLS format conversion, and then uploaded to AWS S3. Files are kept in memory in temp folders until they are uploaded to S3. After upload, the temp directories are deleted. The code to this is available to view in my Github: [ExpressJS/Node Streaming Server](https://github.com/ryanpv/node-video-streamer)
