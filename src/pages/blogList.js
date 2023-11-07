@@ -16,7 +16,7 @@ export default function BlogList() {
 
             <div className='container'>
               <li className="text-2xl font-extrabold leading text-white text-center">
-                <a href="/blogs/expressjs-video-streaming-server-with-aws">
+                <a href="/#/blogs/expressjs-video-streaming-server-with-aws">
                   ExpressJS Video Streaming Server with AWS
                 </a>
               </li>

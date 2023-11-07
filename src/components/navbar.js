@@ -35,7 +35,7 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href={ location.pathname.includes("/blogs") ? "/#" : "#about" }
+              href={ location.pathname.includes("/blogs") ? "/#/about" : "#/about" }
             >
               <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Home</span>
             </a>
@@ -43,15 +43,16 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href={ location.pathname.includes("/blogs") ? "/#projects" : "#projects" }
-            >
+              href={ location.pathname.includes("/blogs") ? "/#/projects" : "#/projects" }
+              // >
+              >
               <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Projects</span>
             </a>
           </li>
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href="/blogs"
+              href="/#/blogs"
             >
               <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Blogs</span>
             </a>
@@ -59,7 +60,7 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href={ location.pathname.includes("/blogs") ? "/#contact" : "#contact" }
+              href={ location.pathname.includes("/blogs") ? "/#/contact" : "#/contact" }
             >
               <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Contact</span>
             </a>
