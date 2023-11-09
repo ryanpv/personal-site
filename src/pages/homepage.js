@@ -49,7 +49,9 @@ export default function Homepage() {
               <strong>What I'm currently working on:</strong>
               <br></br>
               Currently I've been learning on how video streaming works. Using HLS format, I am leveraging certain AWS services such as Cloudfront CDN, S3, and Lambda to create a video streaming server. 
-              This project will allow users to store and serve video content more securely while having scaling capabilities.
+              This project will allow users to store and serve video content more securely while having scaling capabilities. 
+              Check the progress here: <a href='https://github.com/ryanpv/node-video-streamer' target='_blank' rel='noreferrer'><i style={{color: "lightblue"}}>https://github.com/ryanpv/node-video-streamer</i></a> &nbsp;
+              or you can take a look at the <a href='https://ryanvoong.dev/#/blogs/expressjs-video-streaming-server-with-aws' target='_blank' rel='noreferrer'><strong style={{color: "lightblue"}}>blog!</strong></a>
               <br></br>
               <br></br>
 
