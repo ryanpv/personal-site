@@ -35,7 +35,7 @@ export default function Homepage() {
               Hello World! I'm a full-stack developer with a bit more focus on backend development as I enjoy working with data, databases, servers, and apis.
               I currently work as a Registered Nurse in the Greater Toronto Area of Ontario, Canada, but currently looking to transition into a full-time software developer.
               I love technology, solving puzzles and also enjoy learning new things to improve myself, which is what made me gravitate towards software development. 
-              As a software developer, I am seeking for more opportunities to improve my skills and develop better software.
+              As a software developer, I am seeking for more opportunities to improve my skills and develop better software while learning how to elevate those around me.
               <br></br>
               <br></br>
 
