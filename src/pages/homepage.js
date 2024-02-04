@@ -57,7 +57,8 @@ export default function Homepage() {
               <br></br>
 
               <strong>What I'm currently working on:</strong>
-              Currently, I am developing a beauty service app (nail services) for a personal client. This app aims to provide client users the ability to request, update, and cancel appointments through their
+              <br></br>
+              I am developing a beauty service app (nail services) for a personal client. This app aims to provide client users the ability to request, update, and cancel appointments through their
               own account on the site. Admin users will also have additional features/permissions for more control over appointments and the list of services available. This project is being built with Typescript ReactJS,
               Typescript ExpressJS, and PostgreSQL. You can follow along with my progress here: <a href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i style={{color: "lightblue"}}>https://github.com/ryanpv/beauty-service-app</i></a>
               <br></br>
