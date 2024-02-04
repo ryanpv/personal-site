@@ -46,12 +46,20 @@ export default function Homepage() {
               <br></br>
               <br></br>
 
-              <strong>What I'm currently working on:</strong>
+
+              <strong>My last project:</strong>
               <br></br>
-              Currently I've been learning on how video streaming works. Using HLS format, I am leveraging certain AWS services such as Cloudfront CDN, S3, and Lambda to create a video streaming server. 
-              This project will allow users to store and serve video content more securely while having scaling capabilities. 
-              Check the progress here: <a href='https://github.com/ryanpv/node-video-streamer' target='_blank' rel='noreferrer'><i style={{color: "lightblue"}}>https://github.com/ryanpv/node-video-streamer</i></a> &nbsp;
+              In my last project, I took on the task to learn how video streaming works. Using HLS format, I leveraged certain AWS services such as Cloudfront CDN, S3, and Lambda to create a video streaming server. 
+              The project allows users to store and serve video content more securely while having scaling capabilities. 
+              You can check out the source code here: <a href='https://github.com/ryanpv/node-video-streamer' target='_blank' rel='noreferrer'><i style={{color: "lightblue"}}>https://github.com/ryanpv/node-video-streamer</i></a> &nbsp;
               or you can take a look at the <a href='https://ryanvoong.dev/#/blogs/expressjs-video-streaming-server-with-aws' target='_blank' rel='noreferrer'><strong style={{color: "lightblue"}}>blog!</strong></a>
+              <br></br>
+              <br></br>
+
+              <strong>What I'm currently working on:</strong>
+              Currently, I am developing a beauty service app (nail services) for a personal client. This app aims to provide client users the ability to request, update, and cancel appointments through their
+              own account on the site. Admin users will also have additional features/permissions for more control over appointments and the list of services available. This project is being built with Typescript ReactJS,
+              Typescript ExpressJS, and PostgreSQL. You can follow along with my progress here: <a href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i style={{color: "lightblue"}}>https://github.com/ryanpv/beauty-service-app</i></a>
               <br></br>
               <br></br>
 
