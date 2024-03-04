@@ -35,7 +35,8 @@ export default function Homepage() {
               Hello World! I'm a full-stack developer with a bit more focus on backend development as I enjoy working with data, databases, servers, and apis.
               I currently work as a Registered Nurse in the Greater Toronto Area of Ontario, Canada, but currently looking to transition into a full-time software developer.
               I love technology, solving puzzles and also enjoy learning new things to improve myself, which is what made me gravitate towards software development. 
-              As a software developer, I am seeking for more opportunities to improve my skills and develop better software while learning how to elevate those around me.
+              As a software developer, I am seeking for more opportunities to improve my skills and develop better solutions for imrpoved user experiences while learning 
+              how to elevate those around me.
               <br></br>
               <br></br>
 
@@ -60,7 +61,8 @@ export default function Homepage() {
               <br></br>
               I am developing a beauty service app (nail services) for a personal client. This app aims to provide client users the ability to request, update, and cancel appointments through their
               own account on the site. Admin users will also have additional features/permissions for more control over appointments and the list of services available. This project is being built with Typescript ReactJS,
-              Typescript ExpressJS, and PostgreSQL. You can follow along with my progress here: <a href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i style={{color: "lightblue"}}>https://github.com/ryanpv/beauty-service-app</i></a>
+              Typescript ExpressJS, and PostgreSQL. The site is currently live at <a href='https://www.polishbycin.com' target='_blank' rel='noreferrer'><i style={{color: "lightblue"}}>https://www.polishbycin.com</i></a>. 
+              If you'd like to follow along with the code progress, you can check it out here: <a href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i style={{color: "lightblue"}}>https://github.com/ryanpv/beauty-service-app</i></a>
               <br></br>
               <br></br>
 
