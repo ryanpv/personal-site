@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.7ac6e992.css",
-    "main.js": "/static/js/main.cbca168e.js",
+    "main.css": "/static/css/main.0f1a6081.css",
+    "main.js": "/static/js/main.74a5b9a7.js",
     "static/media/polishbycin-screenshot.png": "/static/media/polishbycin-screenshot.b62f25f9be6d53423d0b.png",
     "static/media/WorldAnime-Screenshot.jpg": "/static/media/WorldAnime-Screenshot.6cf523509ed67e125430.jpg",
     "static/media/RV SWE Resume.pdf": "/static/media/RV SWE Resume.d5517eb3591b38f408a5.pdf",
     "static/media/HLS Lambda Func.png": "/static/media/HLS Lambda Func.64203400a27494ca7dca.png",
     "static/media/Reddit-bookmark-manager-screenshot.jpg": "/static/media/Reddit-bookmark-manager-screenshot.017663551e3f42eaf049.jpg",
-    "static/media/profile-photo.jpeg": "/static/media/profile-photo.ac093b861db16b19c276.jpeg",
+    "static/media/profile-photo.jpeg": "/static/media/profile-photo.2c1fa5f6d4c331d61f43.jpeg",
     "index.html": "/index.html",
-    "main.7ac6e992.css.map": "/static/css/main.7ac6e992.css.map",
-    "main.cbca168e.js.map": "/static/js/main.cbca168e.js.map"
+    "main.0f1a6081.css.map": "/static/css/main.0f1a6081.css.map",
+    "main.74a5b9a7.js.map": "/static/js/main.74a5b9a7.js.map"
   },
   "entrypoints": [
-    "static/css/main.7ac6e992.css",
-    "static/js/main.cbca168e.js"
+    "static/css/main.0f1a6081.css",
+    "static/js/main.74a5b9a7.js"
   ]
 }
