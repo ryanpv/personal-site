@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0f1a6081.css",
-    "main.js": "/static/js/main.74a5b9a7.js",
+    "main.js": "/static/js/main.2334c89a.js",
     "static/media/polishbycin-screenshot.png": "/static/media/polishbycin-screenshot.b62f25f9be6d53423d0b.png",
     "static/media/WorldAnime-Screenshot.jpg": "/static/media/WorldAnime-Screenshot.6cf523509ed67e125430.jpg",
     "static/media/RV SWE Resume.pdf": "/static/media/RV SWE Resume.d5517eb3591b38f408a5.pdf",
@@ -10,10 +10,10 @@
     "static/media/profile-photo.jpeg": "/static/media/profile-photo.2c1fa5f6d4c331d61f43.jpeg",
     "index.html": "/index.html",
     "main.0f1a6081.css.map": "/static/css/main.0f1a6081.css.map",
-    "main.74a5b9a7.js.map": "/static/js/main.74a5b9a7.js.map"
+    "main.2334c89a.js.map": "/static/js/main.2334c89a.js.map"
   },
   "entrypoints": [
     "static/css/main.0f1a6081.css",
-    "static/js/main.74a5b9a7.js"
+    "static/js/main.2334c89a.js"
   ]
 }
