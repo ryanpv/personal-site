@@ -32,16 +32,16 @@ export default function ContactUs () {
   };
 
   return (
-    <div className="container w-screen h-screen p-16">
-      <div className='grid grid-rows-12 grid-flow-row gap-5'>
+    <div className="flex justify-center mx-auto h-screen pt-16 px-5 max-w-screen-md">
+      <div className='grid grid-rows-12 grid-flow-row gap-5 w-full'>
         <div>
-          <h1 className='flex justify-center text-white text-center text-5xl font-extrabold underline'>Reach Out To Me!</h1>
-          <p className='text-center text-white mt-4'>Send me a message about anything you'd like to chat about!</p>
+          <h1 className='bg-orange-400 opacity-70 rounded-full p-4 flex justify-center text-white text-center text-5xl font-extrabold underline decoration-indigo-300'>Connect With Me!</h1>
+          <p className='text-center text-white font-semibold text-xl mt-4'>Send me a message about anything you'd like to chat about!</p>
         </div>
         
         <div className='row-start-6'>
           <div className='flex-auto h-screen'>
-            <form ref={formRef} onSubmit={sendEmail} className="dark:bg-slate-500 shadow rounded px-4 pt-6 pb-8 mb-4">
+            <form ref={formRef} onSubmit={sendEmail} className="bg-indigo-100 opacity-70 shadow-xl rounded px-4 pt-6 pb-8 mb-4">
         {/* *****name input*****  */}
               <div className="mb-4">
                 <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="name">
