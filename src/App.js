@@ -10,7 +10,7 @@ function App() {
     <>
     <HashRouter>
 
-      <div className="sticky top-5">
+      <div className="sticky top-5 px-5">
         <Navbar />
       </div>
 

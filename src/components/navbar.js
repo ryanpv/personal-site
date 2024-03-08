@@ -6,8 +6,19 @@ export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
   const location = useLocation();
 
+  React.useEffect(() => {
+    const handleScreenResize = () => {
+      if (window.innerWidth >= 1024) setNavbarOpen(false);
+    };
+
+    window.addEventListener('resize', handleScreenResize);
+
+    return () => window.removeEventListener('resize', handleScreenResize);
+  }, []);
+
   return (
-<nav className="container navbar sticky top-10 rounded-full relative flex flex-wrap items-center justify-between py-3 mb-3 bg-orange-400 opacity-70">    <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
+  <nav className={`container navbar ${ navbarOpen ? 'rounded' : 'rounded-full' } relative flex flex-wrap items-center justify-between py-3 mb-3 bg-orange-400 opacity-70`}>    
+    <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
       <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
         <a
           className="text-white text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
