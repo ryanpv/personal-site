@@ -32,10 +32,10 @@ export default function ContactUs () {
   };
 
   return (
-    <div className="flex justify-center mx-auto h-screen pt-16 px-5 max-w-screen-md">
+    <div className="flex justify-center mx-auto h-screen pt-24 px-5 max-w-screen-md">
       <div className='grid grid-rows-12 grid-flow-row gap-5 w-full'>
         <div>
-          <h1 className='bg-orange-400 opacity-70 rounded-full p-4 flex justify-center text-white text-center text-5xl font-extrabold underline decoration-indigo-300'>Connect With Me!</h1>
+          <h1 className='bg-orange-400 opacity-70 rounded-full p-3 flex justify-center text-white text-center text-5xl font-extrabold underline decoration-indigo-300'>Connect With Me!</h1>
           <p className='text-center text-white font-semibold text-xl mt-4'>Send me a message about anything you'd like to chat about!</p>
         </div>
         

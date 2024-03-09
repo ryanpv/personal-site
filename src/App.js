@@ -10,9 +10,9 @@ function App() {
     <>
     <HashRouter>
 
-      <div className="sticky top-5 px-5">
+      <div className="sticky top-5 px-5 z-50">
         <Navbar />
-      </div>
+      </div>  
 
       <Routes>
         <Route path='/' element={ <MainPage /> } />
