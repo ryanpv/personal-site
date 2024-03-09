@@ -1,15 +1,13 @@
 import React from 'react'
-import { AiOutlineLinkedin, AiOutlineFilePdf } from "react-icons/ai";
 import { VscGithub } from "react-icons/vsc";
 
 // Skills icons
-import { FaNodeJs } from "react-icons/fa";import { FaReact } from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
-import { SiExpress } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
-import { TbBrandMongodb } from "react-icons/tb";
-import { TbBrandTypescript } from "react-icons/tb";
+import { AiOutlineLinkedin, AiOutlineFilePdf, AiOutlineHtml5 } from "react-icons/ai";
+import { FaNodeJs, FaReact } from "react-icons/fa";
+import { SiTailwindcss, SiExpress, SiPostgresql } from "react-icons/si";
+import { TbBrandMongodb, TbBrandTypescript, TbBrandCss3 } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
+import { BsBootstrap } from "react-icons/bs";
 
 export default function Homepage() {
 
@@ -83,48 +81,66 @@ export default function Homepage() {
             <hr className='border border-orange-400 my-5'></hr>
             
             <div className=''>
-            <h3 className='text-xl font-bold text-center mb-4'>Tech stack:</h3>
-            <div className='flex sm:flex-row flex-wrap gap-4 justify-center items-center'>
-              <div>
-                <FaNodeJs size='50'/>
-                <label>NodeJS</label>
-              </div>
+              <h3 className='text-xl font-bold text-center mb-4'>Tech stack:</h3>
 
-              <div className='grid justify-items-center font-semibold'>
-                <TbBrandTypescript size='50'/>
-                <label>Typescript</label>
-              </div>
-              <div className='grid justify-items-center font-semibold'>
-                <RiJavascriptLine size='50'/>
-                <label>Javascript</label>
-              </div>
-              <div>
-                <FaReact size='50' />
-                <label>ReactJs</label>
-              </div>
-              <div className='grid justify-items-center font-semibold'>
-                <SiTailwindcss size='50'/>
-                <label>TailwindCSS</label>
-              </div>
-              <div className='grid justify-items-center font-semibold'>
-                <SiExpress size='50'/>
-                <label>ExpressJS</label>
-              </div>
-              <div className='grid justify-items-center font-semibold'>
-                <SiPostgresql size='50'/>
-                <label>PostgreSQL</label>
-              </div>
-              <div className='grid justify-items-center font-semibold'>
-                <TbBrandMongodb size='50'/>
-                <label>MongoDB</label>
-              </div>
-              
-            </div>
+              <div className='flex sm:flex-row flex-wrap gap-4 justify-center items-center'>
+                <div className='grid justify-items-center font-semibold'>
+                  <TbBrandTypescript size='50'/>
+                  <label>Typescript</label>
+                </div>
 
+                <div className='grid justify-items-center font-semibold'>
+                  <RiJavascriptLine size='50'/>
+                  <label>Javascript</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <FaNodeJs size='50'/>
+                  <label>NodeJS</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <FaReact size='50' />
+                  <label>ReactJS</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <SiExpress size='50'/>
+                  <label>ExpressJS</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <SiPostgresql size='50'/>
+                  <label>PostgreSQL</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <TbBrandMongodb size='50'/>
+                  <label>MongoDB</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <AiOutlineHtml5 size='50'/>
+                  <label>HTML</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <SiTailwindcss size='50'/>
+                  <label>TailwindCSS</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <BsBootstrap size='50'/>
+                  <label>Bootstrap</label>
+                </div>
+
+                <div className='grid justify-items-center font-semibold'>
+                  <TbBrandCss3 size='50'/>
+                  <label>CSS</label>
+                </div>
+              </div>
             </div>
           </div>
-
-
         </div>
       </div>
     </>

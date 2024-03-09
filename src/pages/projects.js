@@ -11,9 +11,9 @@ export default function PersonalProjects() {
               My Personal Projects
             </header>
           <p className='text-gray-700 text-center font-semibold text-xl'>Come have a look at some of my work!</p>
-          <p className='text-gray-700 text-center font-semibold text-xl'>If you'd like to see more, check out my 
+          <p className='text-gray-700 text-center font-semibold text-xl'>If you'd like to see more, check out my github:
           &nbsp;
-            <a className='underline text-indigo-900 hover:text-indigo-400' href='https://github.com/ryanpv' target='_blank' rel='noreferrer'>github: ryanpv</a> 
+            <a className='underline text-indigo-500 hover:text-indigo-700' href='https://github.com/ryanpv' target='_blank' rel='noreferrer'>https://github.com/ryanpv</a> 
           </p>
           </div>
           <div className=''>
