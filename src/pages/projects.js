@@ -22,7 +22,7 @@ export default function PersonalProjects() {
               <div className='sm:py-4 flex justify-center'>
                 <div className='w-full flex flex-col lg:flex-row'>
                   <div className='lg:w-1/3 h-full overflow-hidden rounded-md'>
-                    <img className='rounded object-cover object-center md:h-36 lg:h-60' alt="WorldAnime" src={require("../polishbycin-screenshot.png")} />
+                    <img className='rounded object-cover object-center md:h-36 lg:h-60' alt="PolishByCin" src={require("../polishbycin-screenshot.png")} />
                   </div>
                   <div className='md:w-2/3 flex flex-col'>
                     <div className='pl-2'>
@@ -82,7 +82,7 @@ export default function PersonalProjects() {
               <div className='py-4 flex justify-center'>
                 <div className='w-full flex flex-col lg:flex-row'>
                   <div className='lg:w-1/3 h-full overflow-hidden rounded-md'>
-                    <img className='rounded object-cover object-center md:h-36 lg:h-48' alt="WorldAnime" src={require("../Reddit-bookmark-manager-screenshot.jpg")} />
+                    <img className='rounded object-cover object-center md:h-36 lg:h-60' alt="reddit bookmark manager" src={require("../Reddit-bookmark-manager-screenshot.jpg")} />
                   </div>
                   <div className='md:w-2/3 flex flex-col'>
                     <div className='p-y-6 pl-2'>
