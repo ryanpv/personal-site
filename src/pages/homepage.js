@@ -14,9 +14,9 @@ export default function Homepage() {
   return (
     <>
       <div className='text-white h-full p-3 sm:p-10 max-w-screen'>
-        <div className='grid lg:grid-cols-2 space-x-5 space-y-5'>
+        <div className='grid lg:grid-cols-2 space-y-5'>
 
-          <div className='flex flex-col mx-auto space-y-10 mt-5'>
+          <div className='flex flex-col mx-auto space-y-10 mt-5 mb-10'>
             <div>
               <h1 className='flex justify-center text-4xl font-bold underline decoration-orange-400'>Ryan Voong</h1>
               <h3 className='text-2xl text-center font-semibold'>Full-stack software developer</h3>
@@ -45,7 +45,7 @@ export default function Homepage() {
           </div>
 
           <div className='max-w-screen-2xl'>
-            <h1 className='flex justify-center text-4xl font-bold underline decoration-orange-400'>Welcome friends</h1>
+            <h1 className='text-center text-4xl font-bold underline decoration-orange-400'>Welcome friends</h1>
             <br></br>
         
             <p className='font-semibold mt-4'>
