@@ -17,16 +17,16 @@ export default function PersonalProjects() {
           </p>
           </div>
           <div className=''>
-            <div className='m-4 flex flex-col divide-y divide-gray-700'>
+            <div className='sm:m-4 flex flex-col divide-y divide-gray-700'>
 {/* ////////////////////////////////// POLISHBYCIN BEAUTY SERVICE APP ///////////////////////////////////// */}
-              <div className='sm:py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  <div className='lg:w-1/3 h-full overflow-hidden rounded-md'>
-                    <img className='rounded object-cover object-center md:h-36 lg:h-60' alt="PolishByCin" src={require("../PolishByCin-SS.png")} />
+              <div className='sm:py-4 flex justify-center mt-4 sm:mt-0'>
+                <div className='w-full flex flex-col md:flex-row'>
+                  <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
+                    <img className='rounded object-cover object-center md:h-36 md:h-60' alt="PolishByCin" src={require("../PolishByCin-SS.png")} />
                   </div>
                   <div className='md:w-2/3 flex flex-col'>
                     <div className='pl-2'>
-                      <h2 className='text-indigo-500 mb-3 text-2xl font-bold leading-8 tracking-tight'>
+                      <h2 className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight'>
                         PolishByCin (Beauty service booking app)
                       </h2>
                     </div>
@@ -50,13 +50,13 @@ export default function PersonalProjects() {
               </div>
 {/* ////////////////////////////////// WORLD ANIME APP ///////////////////////////////////// */}
               <div className='py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  <div className='lg:w-1/3 h-full overflow-hidden rounded-md'>
-                    <img className='rounded object-cover object-center md:h-36 lg:h-60' alt="WorldAnime" src={require("../WorldAnime-SS.png")} />
+                <div className='w-full flex flex-col md:flex-row'>
+                  <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
+                    <img className='rounded object-cover object-center md:h-36 md:h-60' alt="WorldAnime" src={require("../WorldAnime-SS.png")} />
                   </div>
                   <div className='md:w-2/3 flex flex-col'>
                     <div className='p-y-6 pl-2'>
-                      <h2 className='text-indigo-500 mb-3 text-2xl font-bold leading-8 tracking-tight'>
+                      <h2 className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight'>
                         WorldAnime (MyAnimeList app)
                       </h2>
                     </div>
@@ -80,13 +80,13 @@ export default function PersonalProjects() {
               </div>
 {/* ////////////////////////////////// REDDIT BOOKMARK MANAGER ///////////////////////////////////// */}
               <div className='py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  <div className='lg:w-1/3 h-full overflow-hidden rounded-md'>
-                    <img className='rounded object-cover object-center md:h-36 lg:h-60' alt="reddit bookmark manager" src={require("../Reddit-bookmark-manager-screenshot.jpg")} />
+                <div className='w-full flex flex-col md:flex-row'>
+                  <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
+                    <img className='rounded object-cover object-center md:h-36 md:h-60' alt="reddit bookmark manager" src={require("../Reddit-bookmark-manager-screenshot.jpg")} />
                   </div>
                   <div className='md:w-2/3 flex flex-col'>
                     <div className='p-y-6 pl-2'>
-                      <h2 className='text-indigo-500 mb-3 text-2xl font-bold leading-8 tracking-tight'>
+                      <h2 className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight'>
                         Reddit Bookmark Manager
                       </h2>
                     </div>
@@ -104,13 +104,13 @@ export default function PersonalProjects() {
               </div>
 {/* ////////////////////////////////// NODEJS VIDEO STREAMING SERVER ///////////////////////////////////// */}
               <div className='py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  {/* <div className='lg:w-1/3 h-full overflow-hidden rounded-md'>
-                    <img className='rounded object-cover object-center md:h-36 lg:h-48' alt="WorldAnime" src={require("../nodejs-appointment-scheduler-appointments.jpg")} />
+                <div className='w-full flex flex-col md:flex-row'>
+                  {/* <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
+                    <img className='rounded object-cover object-center md:h-36 md:h-48' alt="WorldAnime" src={require("../nodejs-appointment-scheduler-appointments.jpg")} />
                   </div> */}
                   <div className='md:w-100 flex flex-col'>
                     <div className='p-y-6 pl-2'>
-                      <h2 className='text-indigo-500 mb-3 text-2xl font-bold leading-8 tracking-tight'>
+                      <h2 className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight'>
                         NodeJS Video Streaming Server
                       </h2>
                     </div>
@@ -131,109 +131,7 @@ export default function PersonalProjects() {
                   </div>
                 </div>
               </div>
-{/* ////////////////////////////////// NODEJS APPOINTMENT SCHEDULER ///////////////////////////////////// */}
-              {/* <div className='py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  <div className='md:w-100 flex flex-col'>
-                    <div className='p-y-6 pl-2'>
-                      <h2 className='text-white mb-3 text-2xl font-bold leading-8 tracking-tight'>
-                        NodeJS Appointment Scheduler
-                      </h2>
-                    </div>
-                    <p className='pl-2 prose mb-3 max-w-none text-gray-500 dark:text-gray-400'>
-                    This app was developed to serve as backend for services that use appointment scheduling. It is built with ExpressJS and uses EJS view template to visualize how the app works. Users can simply book appointments without an account, but if they have an account they can keep track of all appointments they have booked with the specific service. With an account they would also be able to change/cancel an appointment through the app instead of calling the service provider. With nodemailer implementation, the app sends an email notification for any bookings/cancellations/changes. The app also has features for "admins" such as looking up any booked appointment and exporting daily appointments/schedule to an excel sheet if they wish to further organize the data.                    </p>
-                    <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/nodejs-appointment-scheduler' target='_blank' rel='noreferrer'>
-                      <div className='flex m'>
-                        <BsArrowRight />
-                        &nbsp; See the GitHub
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> */}
-{/* ////////////////////////////////// NODEJS FILE ENCRYPTOR-DECRYPTOR ///////////////////////////////////// */}
-              {/* <div className='py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  <div className='md:w-100 flex flex-col'>
-                    <div className='p-y-6 pl-2'>
-                      <h2 className='text-white mb-3 text-2xl font-bold leading-8 tracking-tight'>
-                        NodeJS File Encryptor-Decryptor
-                      </h2>
-                    </div>
-                    <p className='pl-2 prose mb-3 max-w-none text-gray-500 dark:text-gray-400'>
-                    This app was developed to serve as backend for services that use appointment scheduling. It is built with ExpressJS and uses EJS view template to visualize how the app works. Users can simply book appointments without an account, but if they have an account they can keep track of all appointments they have booked with the specific service. With an account they would also be able to change/cancel an appointment through the app instead of calling the service provider. With nodemailer implementation, the app sends an email notification for any bookings/cancellations/changes. The app also has features for "admins" such as looking up any booked appointment and exporting daily appointments/schedule to an excel sheet if they wish to further organize the data.                    </p>
-                    <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/node_file_encrypt-decrypt' target='_blank' rel='noreferrer'>
-                      <div className='flex m'>
-                        <BsArrowRight />
-                        &nbsp; See the GitHub
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> */}
-{/* ////////////////////////////////// PET FINDER APP ///////////////////////////////////// */}
-              {/* <div className='py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  <div className='md:w-100 flex flex-col'>
-                    <div className='p-y-6 pl-2'>
-                      <h2 className='text-white mb-3 text-2xl font-bold leading-8 tracking-tight'>
-                        Pet Finder App
-                      </h2>
-                    </div>
-                    <p className='pl-2 prose mb-3 max-w-none text-gray-500 dark:text-gray-400'>
-                      Backend app that utilizes the PetFinder API for data on adoptable cats/dogs. This app is displayed with the EJS view template. I built this app because I wanted to continue to solidify my backend skills and since I love dogs and cats I chose to use the PetFinder API. Users are able to query for either adoptable dogs/cats data, filter the results, as well as search for the pet by name. The app also allows for account creation to store/save pet postings. 
-                    </p>
-                    <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/pet-finder-api' target='_blank' rel='noreferrer'>
-                      <div className='flex m'>
-                        <BsArrowRight />
-                        &nbsp; See the GitHub
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> */}
-{/* ////////////////////////////////// COVID TRACKER APP ///////////////////////////////////// */}
-              {/* <div className='py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  <div className='md:w-100 flex flex-col'>
-                    <div className='p-y-6 pl-2'>
-                      <h2 className='text-white mb-3 text-2xl font-bold leading-8 tracking-tight'>
-                        COVID-19 Tracker App
-                      </h2>
-                    </div>
-                    <p className='pl-2 prose mb-3 max-w-none text-gray-500 dark:text-gray-400'>
-                      During the COVID-19 pandemic, I worked in public health as a registered nurse to support efforts in reducing the spread of the virus through infection management in schools, hospitals, nursing homes, individual/family cases, as well as vaccination programs. I figured it would be interesting to have personally developed a COVID-19 tracking app to see trends all over the world (countries, states and cities). This app was built using RAPID-API, which had access to official data from the John Hopkins University.
-                    </p>
-                    <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/covid-tracker-api' target='_blank' rel='noreferrer'>
-                      <div className='flex m'>
-                        <BsArrowRight />
-                        &nbsp; See the GitHub
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> */}
-{/* ////////////////////////////////// NODEJS EXPENSE TRACKER ///////////////////////////////////// */}
-              {/* <div className='py-4 flex justify-center'>
-                <div className='w-full flex flex-col lg:flex-row'>
-                  <div className='md:w-100 flex flex-col'>
-                    <div className='p-y-6 pl-2'>
-                      <h2 className='text-white mb-3 text-2xl font-bold leading-8 tracking-tight'>
-                        NodeJS Expense Tracker
-                      </h2>
-                    </div>
-                    <p className='pl-2 prose mb-3 max-w-none text-gray-500 dark:text-gray-400'>
-                    This expense tracker app was developed track expenses to reduce unnecessary spending, which helped me early on when I used it. It is built with the MERN stack and optimized for scability through data caching and pagination.
-                    </p>
-                    <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/nodejs-expense-tracker' target='_blank' rel='noreferrer'>
-                      <div className='flex m'>
-                        <BsArrowRight />
-                        &nbsp; See the GitHub
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div> */}
+              
             </div>
           </div>
         </div>
