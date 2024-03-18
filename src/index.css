@@ -1,11 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Odia:wght@100..800&family=Hind+Siliguri:wght@300;400;500;600;700&family=Overlock+SC&display=swap');
 
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Baskervville', 'Kalnia', 'Syne', 'Tenor sans', 'Oxygen Bold', 'Eb Garamond', 'Dosis', 'Quicksand', 'Ojuju', 'Oswald', 'Segoe UI', 'Roboto', 'Oxygen',
+  font-family: -apple-system, BlinkMacSystemFont, 'Hind Siliguri', 'Overlock SC', 'Anek-Odia', 'Baskervville', 'Kalnia', 'Syne', 'Tenor sans', 'Oxygen Bold', 'Eb Garamond', 'Dosis', 'Quicksand', 'Ojuju', 'Oswald', 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;

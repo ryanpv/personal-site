@@ -7,7 +7,7 @@ export default function PersonalProjects() {
       <main className='flex justify-center items-center pt-16 px-5 mb-auto'>
         <div className='max-w-4xl flex flex-col divide-y divide-gray-200 dark:divide-gray-700'>
           <div className='space-y-2 pt-6 pb-8 md:space-y-5'>
-          <header className='bg-orange-400 opacity-70 rounded-full p-3 text-5xl font-extrabold leading text-white underline text-center decoration-indigo-300'>
+          <header className='bg-orange-400 rounded-full p-3 text-5xl font-extrabold leading text-white underline text-center decoration-indigo-300'>
               My Personal Projects
             </header>
           <p className='text-gray-700 text-center font-semibold text-xl'>Come have a look at some of my work!</p>
