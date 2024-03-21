@@ -23,7 +23,7 @@ export default function Homepage() {
             </div>
 
             <div className='flex justify-center mb-5'>
-              <img className="rounded-full h-96" src={require("../profile-photo.jpeg")} alt='profile'/>
+              <img className="rounded-full h-96" src={require("../profile-photo.jpg")} alt='profile'/>
             </div>
 
 
@@ -45,7 +45,7 @@ export default function Homepage() {
           </div>
 
           <div className='max-w-screen-2xl'>
-            <h1 className='text-center text-4xl font-bold underline decoration-orange-400'>Welcome friends</h1>
+            <h1 className='text-center text-4xl font-bold underline decoration-orange-400'>Hello friends!</h1>
             <br></br>
         
             <p className='font-semibold mt-4'>
