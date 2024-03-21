@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/static/css/main.a2e6250d.css",
-    "main.js": "/static/js/main.b41b3d3d.js",
+    "main.js": "/static/js/main.704663db.js",
     "static/media/WorldAnime-SS.png": "/static/media/WorldAnime-SS.0f2c815e0237c40bbb40.png",
     "static/media/PolishByCin-SS.png": "/static/media/PolishByCin-SS.341202ddf18cf423f98b.png",
+    "static/media/profile-photo.jpg": "/static/media/profile-photo.32cf69fb1eb650b99aa0.jpg",
     "static/media/RV SWE Resume.pdf": "/static/media/RV SWE Resume.54f106782cff5cbd3aaa.pdf",
     "static/media/HLS Lambda Func.png": "/static/media/HLS Lambda Func.64203400a27494ca7dca.png",
     "static/media/Reddit-bookmark-manager-screenshot.jpg": "/static/media/Reddit-bookmark-manager-screenshot.017663551e3f42eaf049.jpg",
-    "static/media/profile-photo.jpeg": "/static/media/profile-photo.2c1fa5f6d4c331d61f43.jpeg",
     "index.html": "/index.html",
     "main.a2e6250d.css.map": "/static/css/main.a2e6250d.css.map",
-    "main.b41b3d3d.js.map": "/static/js/main.b41b3d3d.js.map"
+    "main.704663db.js.map": "/static/js/main.704663db.js.map"
   },
   "entrypoints": [
     "static/css/main.a2e6250d.css",
-    "static/js/main.b41b3d3d.js"
+    "static/js/main.704663db.js"
   ]
 }
