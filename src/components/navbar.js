@@ -1,6 +1,7 @@
 import React from 'react'
 import { FaBars } from 'react-icons/fa'
 import { useLocation } from 'react-router-dom';
+import { elementToTop } from './navScroller';
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -16,10 +17,17 @@ export default function Navbar() {
     return () => window.removeEventListener('resize', handleScreenResize);
   }, []);
 
+  React.useEffect(() => {
+    if (navbarOpen) {
+      setNavbarOpen(false);
+    }
+
+  }, [location]);
+  
   return (
-  <nav className={`container navbar ${ navbarOpen ? 'rounded' : 'rounded-full' } relative flex flex-wrap items-center justify-between py-3 mb-3 bg-orange-400 opacity-70`}>    
-    <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
-      <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
+   <nav className={`container navbar ${ navbarOpen ? 'rounded' : 'rounded-full' } max-w-screen-xl shadow-xl flex flex-wrap items-center justify-between py-2 px-5 bg-orange-400 opacity-80` }>    
+    <div className="w-full px-4 mx-auto flex flex-wrap items-center justify-between"> 
+      <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start transition-all ease-in-out delay-150 duration-300">
         <a
           className="text-white text-lg font-bold leading-relaxed inline-block mr-4 py-2 whitespace-nowrap uppercase"
           href="/#"
@@ -45,7 +53,8 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
-              href={ location.pathname.includes("/blogs") ? "/#/" : "#" }
+              href={ location.pathname.includes("/blogs") ? "/#/" : "#/" }
+              onClick={ () => elementToTop(location, setNavbarOpen) }
             >
               <i className="fab fa-facebook-square text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Home</span>
             </a>
@@ -53,8 +62,17 @@ export default function Navbar() {
           <li className="nav-item">
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
+              href={ location.pathname.includes("/blogs") ? "/#/about" : "#/about" }
+              onClick={ () => elementToTop(location, setNavbarOpen) }
+              >
+              <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">About</span>
+            </a>
+          </li>
+          <li className="nav-item">
+            <a
+              className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
               href={ location.pathname.includes("/blogs") ? "/#/projects" : "#/projects" }
-              // >
+              onClick={ () => elementToTop(location, setNavbarOpen) }
               >
               <i className="fab fa-twitter text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Projects</span>
             </a>
@@ -71,6 +89,7 @@ export default function Navbar() {
             <a
               className="px-3 py-2 flex items-center text-xs uppercase font-bold leading-snug text-white hover:opacity-75"
               href={ location.pathname.includes("/blogs") ? "/#/contact" : "#/contact" }
+              onClick={ () => elementToTop(location, setNavbarOpen) }
             >
               <i className="fab fa-pinterest text-lg leading-lg text-white opacity-75"></i><span className="ml-2">Contact</span>
             </a>

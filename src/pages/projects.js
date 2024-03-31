@@ -3,11 +3,14 @@ import { BsArrowRight } from 'react-icons/bs'
 
 export default function PersonalProjects() {
   return (
-    <div className='flex h-full flex-col bg-indigo-200 border-4 border-orange-400 border-opacity-25'>
+    <div 
+      className='flex h-full bg-indigo-200 flex-col' 
+      style={ { backgroundColor: '#A2BCDD' } }
+    >
       <main className='flex justify-center items-center pt-16 px-5 mb-auto'>
         <div className='max-w-4xl flex flex-col divide-y divide-gray-200 dark:divide-gray-700'>
           <div className='space-y-2 pt-6 pb-8 md:space-y-5'>
-          <header className='bg-orange-400 rounded-full p-3 text-5xl font-extrabold leading text-white underline text-center decoration-indigo-300'>
+          <header className='rounded-full p-3 text-5xl font-extrabold leading text-white underline text-center decoration-orange-400'>
               My Personal Projects
             </header>
           <p className='text-gray-700 text-center font-semibold text-xl'>Come have a look at some of my work!</p>
@@ -36,7 +39,7 @@ export default function PersonalProjects() {
                     <a className='pl-2 text-base text-indigo-500 font-bold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://www.polishbycin.com' target='_blank' rel='noreferrer'>
                       <div className='flex m'>
                         <BsArrowRight />
-                        &nbsp; Visit the site
+                        &nbsp; Visit the live site
                       </div>
                     </a>
                     <a className='pl-2 text-base text-indigo-500 font-bold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'>
@@ -66,7 +69,7 @@ export default function PersonalProjects() {
                     <a className='pl-2 text-base text-indigo-500 font-bold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://mal-simplified.web.app/' target='_blank' rel='noreferrer'>
                       <div className='flex m'>
                         <BsArrowRight />
-                        &nbsp; Visit the site
+                        &nbsp; Visit the live site
                       </div>
                     </a>
                     <a className='pl-2 text-base text-indigo-500 font-bold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/mal-simp-api' target='_blank' rel='noreferrer'>

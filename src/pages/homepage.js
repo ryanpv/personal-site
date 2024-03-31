@@ -13,14 +13,14 @@ export default function Homepage() {
 
   return (
     <>
-      <div className='text-white h-full p-3 sm:p-10 max-w-screen'>
+      <div className='text-white h-full px-3 sm:p-20 max-w-screen-2xl mx-auto'>
         <div className='grid lg:grid-cols-2 space-y-5'>
 
           <div className='flex flex-col mx-auto space-y-10 mt-5 mb-10'>
-            <div>
+            {/* <div>
               <h1 className='flex justify-center text-4xl font-bold underline decoration-orange-400'>Ryan Voong</h1>
               <h3 className='text-2xl text-center font-semibold'>Full-stack software developer</h3>
-            </div>
+            </div> */}
 
             <div className='flex justify-center mb-5'>
               <img className="rounded-full h-96" src={require("../profile-photo.jpg")} alt='profile'/>
@@ -29,7 +29,7 @@ export default function Homepage() {
 
             <div className='flex justify-center mb-10'>
               <a className='mx-2 flex flex-col items-center' href={require("../RV SWE Resume.pdf")} target='_blank' rel='noreferrer'>
-                <AiOutlineFilePdf size="30" color='blue'/> 
+                <AiOutlineFilePdf size="30" color='red'/> 
                 <strong>Resume</strong>
               </a>
               <a className='mx-2 flex flex-col items-center' href='https://github.com/ryanpv' target='_blank' rel='noreferrer'>
@@ -37,7 +37,7 @@ export default function Homepage() {
                 <strong>GitHub</strong>
               </a>
               <a className='mx-2 flex flex-col items-center' href='https://www.linkedin.com/in/ryandvoong/' target='_blank' rel='noreferrer'>
-                <AiOutlineLinkedin size="30" color='blue'/>
+                <AiOutlineLinkedin size="30" color='#71B7FB'/>
                 <strong>LinkedIn</strong>
               </a>
             </div>
@@ -45,7 +45,7 @@ export default function Homepage() {
           </div>
 
           <div className='max-w-screen-2xl'>
-            <h1 className='text-center text-4xl font-bold underline decoration-orange-400'>Hello friends!</h1>
+            <h1 className='text-center text-4xl font-bold underline decoration-orange-400'>About Me</h1>
             <br></br>
         
             <p className='font-semibold mt-4'>
@@ -70,57 +70,57 @@ export default function Homepage() {
 
               <div className='flex sm:flex-row flex-wrap gap-4 justify-center items-center'>
                 <div className='grid justify-items-center font-semibold'>
-                  <TbBrandTypescript size='50'/>
+                  <TbBrandTypescript size='50' color='#A2BCDD'/>
                   <label>Typescript</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <RiJavascriptLine size='50'/>
+                  <RiJavascriptLine size='50' color='#F7DF38'/>
                   <label>Javascript</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <FaNodeJs size='50'/>
+                  <FaNodeJs size='50' color='#87BF00'/>
                   <label>NodeJS</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <FaReact size='50' />
+                  <FaReact size='50' color='#5ED3F3'/>
                   <label>ReactJS</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <SiExpress size='50'/>
+                  <SiExpress size='50' />
                   <label>ExpressJS</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <SiPostgresql size='50'/>
+                  <SiPostgresql size='50' color='#31648C'/>
                   <label>PostgreSQL</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <TbBrandMongodb size='50'/>
+                  <TbBrandMongodb size='50' color='#10964D'/>
                   <label>MongoDB</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <AiOutlineHtml5 size='50'/>
+                  <AiOutlineHtml5 size='50' color='#E96228'/>
                   <label>HTML</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <SiTailwindcss size='50'/>
+                  <SiTailwindcss size='50' color='#26BAC6'/>
                   <label>TailwindCSS</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <BsBootstrap size='50'/>
+                  <BsBootstrap size='50' color='#9A49E4'/>
                   <label>Bootstrap</label>
                 </div>
 
                 <div className='grid justify-items-center font-semibold'>
-                  <TbBrandCss3 size='50'/>
+                  <TbBrandCss3 size='50' color='#254BDD'/>
                   <label>CSS</label>
                 </div>
               </div>

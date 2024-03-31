@@ -7,17 +7,18 @@ export const ScrollerHandler = ({ children }) => {
   const handleScroll = () => {
     // const element = document.getElementById(pathname.replace("#", ""));
     const element = document.getElementById(pathname.replace("/", ""));
-console.log("scroll location: ", pathname.replace("/", ""))
-console.log("ele: ", element)
+// console.log("scroll location: ", pathname.replace("/", ""))
+// console.log("ele: ", element)
     setTimeout(() => {
       window.scrollTo({
         behavior: "smooth",
         top: element ? element.offsetTop : 0
       });
     }, 100);
-  }
+  };
 
   useEffect(() => {
+    console.log('useeffect');
     handleScroll()
   }, [pathname, hash])
 
