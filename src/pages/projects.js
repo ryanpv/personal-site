@@ -4,7 +4,7 @@ import { BsArrowRight } from 'react-icons/bs'
 export default function PersonalProjects() {
   return (
     <div 
-      className='flex h-full bg-indigo-200 flex-col' 
+      className='flex h-full bg-indigo-200 flex-col overflow-hidden' 
       style={ { backgroundColor: '#A2BCDD' } }
     >
       <main className='flex justify-center items-center pt-16 px-5 mb-auto'>

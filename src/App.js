@@ -29,6 +29,12 @@ function App() {
           <Route path="/blogs/:blogItem" element={ <VideoStreamerBlog /> } />
         </Routes>
       </HashRouter>
+
+      <footer
+        className="z-50 text-center p-6 text-white text-xs font-semibold"
+      > 
+        COPYRIGHT © 2024 RYAN VOONG - ALL RIGHTS RESERVED.
+      </footer>
     </div>
   );
 }

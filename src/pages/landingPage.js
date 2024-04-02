@@ -15,15 +15,14 @@ export default function LandingPage() {
     return (
       <div 
         className='flex flex-col space-y-8 items-center justify-center min-h-screen'
-
       >
         <div 
-          className={ ` flex text-white flex-col text-6xl` }
+          className={ `flex text-white flex-col text-6xl` }
           data-aos='fade-down' 
           data-aos-duration='1500'
           >
-          <h1>Hello, I'm <span className='text-orange-400'>Ryan</span>.</h1>
-          <h1>I'm a full-stack developer</h1>
+          <h1 className='text-center'>Hello, I'm <span className='text-orange-400'>Ryan</span>.</h1>
+          <h1 className='text-center'>I'm a full-stack developer</h1>
         </div>
         <div 
           className={ `transition-all duration-200 ease-in rounded text-orange-400 border-2 py-2 px-4 text-2xl hover:bg-orange-100 hover:border-orange-100` }

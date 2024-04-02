@@ -12,7 +12,7 @@ import { BsBootstrap } from "react-icons/bs";
 export default function Aboutpage() {
   return (
     <>
-      <div className='text-white h-full px-3 sm:p-20 max-w-screen-2xl mx-auto'>
+      <div className='text-white h-full px-3 sm:p-20 sm:max-w-screen-2xl mx-auto'>
         <div className='grid lg:grid-cols-2 space-y-5'>
 
           <div 
