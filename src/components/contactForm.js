@@ -35,13 +35,17 @@ export default function ContactUs () {
     <div className="flex justify-center mx-auto h-screen pt-24 px-5 max-w-screen-md">
       <div className='grid grid-rows-12 grid-flow-row gap-5 w-full'>
         <div>
-          <h1 className='rounded-full p-3 flex justify-center text-white text-center text-5xl font-extrabold underline decoration-orange-400'>Connect With Me!</h1>
+          <h1 className='rounded-full p-3 flex justify-center text-white text-center text-5xl underline decoration-orange-400'>Connect With Me!</h1>
           <p className='text-center text-white font-semibold text-xl mt-4'>Send me a message about anything you'd like to chat about!</p>
         </div>
         
         <div className='row-start-6'>
-          <div className='flex-auto h-screen'>
-            <form ref={formRef} onSubmit={sendEmail} className="bg-indigo-100 shadow-xl rounded px-4 pt-6 pb-8 mb-4">
+          <div 
+            className='flex-auto h-screen'
+            data-aos='fade-up'
+            data-aos-duration='1500'
+            >
+            <form ref={formRef} onSubmit={sendEmail} className="border border-gray-700 g-indigo-100 shadow-xl rounded px-4 pt-6 pb-8 mb-4">
         {/* *****name input*****  */}
               <div className="mb-4">
                 {/* <label className="block text-gray-700 text-lg font-bold mb-2" htmlFor="name">

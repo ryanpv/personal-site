@@ -4,26 +4,32 @@ import BlogList from "./pages/blogList";
 import MainPage from "./components/mainPage";
 import VideoStreamerBlog from "./components/video-streamer-blog";
 import React from "react";
+import Aos from "aos";
+import 'aos/dist/aos.css';
 
 
 function App() {
-  return (
-    <>
-    <HashRouter>
-      <div className="flex w-full justify-center px-5 items-center fixed top-5 z-50" >
-        <Navbar />
-      </div>  
+  React.useEffect(() => {
+    Aos.init();
+  }, []);
 
-      <Routes>
-        <Route path="/" element={ <MainPage /> } />
-        <Route path='/about' element={ <MainPage /> } />
-        <Route path='/projects' element={ <MainPage /> } />
-        <Route path='/contact' element={ <MainPage /> } />
-        <Route path="/blogs" element={ <BlogList /> } />
-        <Route path="/blogs/:blogItem" element={ <VideoStreamerBlog /> } />
-      </Routes>
-    </HashRouter>
-    </>
+  return (
+    <div className="min-h-screen">
+      <HashRouter>
+        <div className="flex w-full justify-center px-5 items-center fixed top-5 z-50" >
+          <Navbar />
+        </div>  
+
+        <Routes>
+          <Route path="/" element={ <MainPage /> } />
+          <Route path='/about' element={ <MainPage /> } />
+          <Route path='/projects' element={ <MainPage /> } />
+          <Route path='/contact' element={ <MainPage /> } />
+          <Route path="/blogs" element={ <BlogList /> } />
+          <Route path="/blogs/:blogItem" element={ <VideoStreamerBlog /> } />
+        </Routes>
+      </HashRouter>
+    </div>
   );
 }
 

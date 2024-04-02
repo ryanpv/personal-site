@@ -1,5 +1,5 @@
 import React from 'react'
-import Homepage from '../pages/homepage'
+import Aboutpage from '../pages/aboutPage'
 import PersonalProjects from '../pages/projects'
 import ContactUs from './contactForm'
 import { ScrollerHandler } from './scrollHandler'
@@ -18,7 +18,7 @@ export default function MainPage() {
 
       <section id="about">
         <div>
-          <Homepage />
+          <Aboutpage />
         </div>
       </section>
 

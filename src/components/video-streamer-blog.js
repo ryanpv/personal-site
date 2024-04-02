@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function VideoStreamerBlog() {
   return (
-    <div className='container'>
+    <div className='container mt-20 '>
 
       <div className='space-y-2 pt-6 pb-8 md:space-y-5'>
         <header className='text-5xl font-bold leading text-white underline decoration-orange-400 text-center'>

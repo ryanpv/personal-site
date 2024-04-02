@@ -9,54 +9,65 @@ import { TbBrandMongodb, TbBrandTypescript, TbBrandCss3 } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
 import { BsBootstrap } from "react-icons/bs";
 
-export default function Homepage() {
-
+export default function Aboutpage() {
   return (
     <>
       <div className='text-white h-full px-3 sm:p-20 max-w-screen-2xl mx-auto'>
         <div className='grid lg:grid-cols-2 space-y-5'>
 
-          <div className='flex flex-col mx-auto space-y-10 mt-5 mb-10'>
+          <div 
+            className='flex flex-col mx-auto space-y-10 mt-5 mb-10'
+            data-aos={ window.innerWidth >= 1024 ? 'zoom-out-right' : 'fade-up' } 
+            data-aos-duration='1000'
+            >
             {/* <div>
               <h1 className='flex justify-center text-4xl font-bold underline decoration-orange-400'>Ryan Voong</h1>
               <h3 className='text-2xl text-center font-semibold'>Full-stack software developer</h3>
             </div> */}
 
-            <div className='flex justify-center mb-5'>
+            <div className='flex justify-center mb-5 flex-col'>
               <img className="rounded-full h-96" src={require("../profile-photo.jpg")} alt='profile'/>
+              <span className='text-center'>
+                © Ryan Voong
+              </span>
             </div>
 
 
             <div className='flex justify-center mb-10'>
-              <a className='mx-2 flex flex-col items-center' href={require("../RV SWE Resume.pdf")} target='_blank' rel='noreferrer'>
+              <a className='mx-2 flex flex-col items-center hover:text-red-400' href={require("../RV SWE Resume.pdf")} target='_blank' rel='noreferrer'>
                 <AiOutlineFilePdf size="30" color='red'/> 
-                <strong>Resume</strong>
+                <span>Resume</span>
               </a>
-              <a className='mx-2 flex flex-col items-center' href='https://github.com/ryanpv' target='_blank' rel='noreferrer'>
+              <a className='mx-2 flex flex-col items-center hover:text-orange-400' href='https://github.com/ryanpv' target='_blank' rel='noreferrer'>
                 <VscGithub size="30" color='orange'/>
-                <strong>GitHub</strong>
+                <span>GitHub</span>
               </a>
-              <a className='mx-2 flex flex-col items-center' href='https://www.linkedin.com/in/ryandvoong/' target='_blank' rel='noreferrer'>
+              <a className='mx-2 flex flex-col items-center hover:text-blue-400' href='https://www.linkedin.com/in/ryandvoong/' target='_blank' rel='noreferrer'>
                 <AiOutlineLinkedin size="30" color='#71B7FB'/>
-                <strong>LinkedIn</strong>
+                <span>LinkedIn</span>
               </a>
             </div>
             
+            
           </div>
 
-          <div className='max-w-screen-2xl'>
-            <h1 className='text-center text-4xl font-bold underline decoration-orange-400'>About Me</h1>
+          <div 
+            className='max-w-screen-2xl'
+            data-aos={ window.innerWidth >= 1024 ? 'zoom-out-left' : 'fade-up' } 
+            data-aos-duration='1000'
+          >
+            <h1 className='text-center text-5xl underline decoration-orange-400'>About Me</h1>
             <br></br>
         
-            <p className='font-semibold mt-4'>
+            <p className='font- mt-4'>
               I am a full-stack software developer with background experience as a Registered Nurse! With a passion for solving problems and continuous learning, I look to leverage my background alongside technology to better user experiences.
               <br></br>
               <br></br>
 
               <p className='text-center font-bold'>What I'm currently working on:</p>
               I am developing a beauty service app (nail services) for a personal client. This app provides customers the ability to request, update, and cancel appointments through their
-              own account on the site. The site is currently live at <a href='https://www.polishbycin.com' target='_blank' rel='noreferrer'><i style={{color: "blue"}}>https://www.polishbycin.com</i></a>. 
-              If you'd like to follow along with the code progress, you can check it out here: <a href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i style={{color: "blue"}}>https://github.com/ryanpv/beauty-service-app</i></a>
+              own account on the site. The site is currently live at <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://www.polishbycin.com' target='_blank' rel='noreferrer'><i>https://www.polishbycin.com</i></a>. 
+              If you'd like to follow along with the code progress, you can check it out here: <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i>https://github.com/ryanpv/beauty-service-app</i></a>
               <br></br>
               <br></br>
 
