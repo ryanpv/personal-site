@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3d24627c.css",
-    "main.js": "/static/js/main.ef42e918.js",
+    "main.css": "/static/css/main.98f0ab77.css",
+    "main.js": "/static/js/main.546a1403.js",
     "static/media/WorldAnime-SS.png": "/static/media/WorldAnime-SS.0f2c815e0237c40bbb40.png",
     "static/media/PolishByCin-SS.png": "/static/media/PolishByCin-SS.341202ddf18cf423f98b.png",
     "static/media/starry-sky.jpg": "/static/media/starry-sky.5a045507cf078eab6f2e.jpg",
@@ -10,11 +10,11 @@
     "static/media/HLS Lambda Func.png": "/static/media/HLS Lambda Func.64203400a27494ca7dca.png",
     "static/media/Reddit-bookmark-manager-screenshot.jpg": "/static/media/Reddit-bookmark-manager-screenshot.017663551e3f42eaf049.jpg",
     "index.html": "/index.html",
-    "main.3d24627c.css.map": "/static/css/main.3d24627c.css.map",
-    "main.ef42e918.js.map": "/static/js/main.ef42e918.js.map"
+    "main.98f0ab77.css.map": "/static/css/main.98f0ab77.css.map",
+    "main.546a1403.js.map": "/static/js/main.546a1403.js.map"
   },
   "entrypoints": [
-    "static/css/main.3d24627c.css",
-    "static/js/main.ef42e918.js"
+    "static/css/main.98f0ab77.css",
+    "static/js/main.546a1403.js"
   ]
 }
