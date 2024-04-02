@@ -67,7 +67,12 @@ export default function ContactUs () {
               </div>
         {/* *****submit button*****  */}
               <div className="flex justify-center mt-4">
-                <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit">
+                {/* <button className="hover:text-blue-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" type="submit" style={{ backgroundColor: '#A2BCDD' }}> */}
+                <button 
+                  className="transition ease-in-out delay-150 bg-blue-500 hover:-translate-y-1 hover:scale-110 hover:text-blue-500 duration-300 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline" 
+                  type="submit" 
+                  style={{ backgroundColor: '#A2BCDD' }}
+                >
                   Submit
                 </button>
               </div>
