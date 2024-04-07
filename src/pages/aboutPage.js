@@ -34,13 +34,13 @@ export default function Aboutpage() {
                 <AiOutlineFilePdf size="30" color='red'/> 
                 <span>Resume</span>
               </a>
-              <a className='mx-2 flex flex-col items-center hover:text-orange-400' href='https://github.com/ryanpv' target='_blank' rel='noreferrer'>
-                <VscGithub size="30" color='orange'/>
-                <span>GitHub</span>
-              </a>
               <a className='mx-2 flex flex-col items-center hover:text-blue-400' href='https://www.linkedin.com/in/ryandvoong/' target='_blank' rel='noreferrer'>
                 <AiOutlineLinkedin size="30" color='#71B7FB'/>
                 <span>LinkedIn</span>
+              </a>
+              <a className='mx-2 flex flex-col items-center hover:text-orange-400' href='https://github.com/ryanpv' target='_blank' rel='noreferrer'>
+                <VscGithub size="30" color='orange'/>
+                <span>GitHub</span>
               </a>
             </div>
             
