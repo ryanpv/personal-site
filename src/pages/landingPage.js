@@ -34,7 +34,7 @@ export default function LandingPage() {
           <a 
             href={ location.pathname.includes("/blogs") ? "/#/about" : "#/about" }
             onClick={ () => elementToTop(location) }
-          >View my profile</a>
+          >View Profile</a>
         </div>
       </div>
     )

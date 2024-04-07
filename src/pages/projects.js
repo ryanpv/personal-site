@@ -27,15 +27,19 @@ export default function PersonalProjects() {
                 data-aos='fade-right'
                 data-aos-duration='1500'
                 >
-                <div className='w-full flex flex-col md:flex-row'>
+                <div className='w-full flex flex-col md:flex-row md:space-x-7'>
                   <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
                     <img className='rounded object-cover object-center md:h-36 md:h-60' alt="PolishByCin" src={require("../PolishByCin-SS.png")} />
                   </div>
-                  <div className='md:w-2/3 flex flex-col'>
+                  <div className='md:w-2/3 flex flex-col mt-5 md:mt-0'>
                     <div className='pl-2'>
-                      <h2 className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight'>
+                      <a 
+                        className='text-indigo-500 md:mb-3 text-2xl font-bold leading-8 tracking-tight hover:text-indigo-600' 
+                        href='https://www.polishbycin.com' 
+                        target='_blank' 
+                        rel='noreferrer'>
                         PolishByCin (Beauty service booking app)
-                      </h2>
+                      </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-semibold'>
                     This is a project I developed for a client I know personally. They requested the app for a business they are planning in the future. However, in the mean time, it can also be used to showcase their current works. Throughout the development life cycle, we discussed plans about designs and features to be implemented that we believe provides the best user experiences.
@@ -61,15 +65,18 @@ export default function PersonalProjects() {
                 data-aos='fade-left'
                 data-aos-duration='1500'
               >
-                <div className='w-full flex flex-col md:flex-row'>
+                <div className='w-full flex flex-col md:flex-row md:space-x-7 mt-4'>
                   <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
                     <img className='rounded object-cover object-center md:h-36 md:h-60' alt="WorldAnime" src={require("../WorldAnime-SS.png")} />
                   </div>
-                  <div className='md:w-2/3 flex flex-col'>
+                  <div className='md:w-2/3 flex flex-col mt-5 md:mt-0'>
                     <div className='p-y-6 pl-2'>
-                      <h2 className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight'>
+                      <a 
+                        className='text-indigo-500 md:mb-3 text-2xl font-bold leading-8 tracking-tight hover:text-indigo-600' 
+                        href='https://mal-simplified.web.app/' target='_blank' rel='noreferrer'
+                        >
                         WorldAnime (MyAnimeList app)
-                      </h2>
+                      </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-semibold'>
                     As someone who enjoys anime and is always looking for a new show to watch, I wanted to create a project that had something to do with anime. I believe that the original MyAnimeList(MAL).net is a fantastic site to get all your anime information, but I wanted to simplify it a bit more. The idea of MAL-Simplified is to be focused solely on anime titles rather than including manga, anime news, etc. Users would be able to quicky search any anime available on the MAL database and view basic information such as scores, synopsis, and trailers.
@@ -95,15 +102,18 @@ export default function PersonalProjects() {
                 data-aos='fade-right'
                 data-aos-duration='1500'
               >
-                <div className='w-full flex flex-col md:flex-row'>
+                <div className='w-full flex flex-col md:flex-row md:space-x-7 mt-4'>
                   <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
                     <img className='rounded object-cover object-center md:h-36 md:h-60' alt="reddit bookmark manager" src={require("../Reddit-bookmark-manager-screenshot.jpg")} />
                   </div>
-                  <div className='md:w-2/3 flex flex-col'>
+                  <div className='md:w-2/3 flex flex-col mt-5 md:mt-0'>
                     <div className='p-y-6 pl-2'>
-                      <h2 className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight'>
+                      <a 
+                        className='text-indigo-500 md:mb-3 text-2xl font-bold leading-8 tracking-tight hover:text-indigo-600' 
+                        href='https://github.com/ryanpv/reddit-bookmark-manager-client' target='_blank' rel='noreferrer'
+                        >
                         Reddit Bookmark Manager
-                      </h2>
+                      </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-bold'>
                     Reddit Bookmark Manager is a web-app that allows users to organize their saved Reddit posts/comments/links in custom categories. Previously, only Reddit premium users had access to such a feature. This web-app allows users to do so without affecting their Reddit account. This web-app uses it's own database to store the saved data so if a user accidentally removes a save from their Reddit account, it would still exist in any category it is saved in.
@@ -123,15 +133,19 @@ export default function PersonalProjects() {
                 data-aos='fade-left'
                 data-aos-duration='1500'
               >
-                <div className='w-full flex flex-col md:flex-row'>
+                <div className='w-full flex flex-col md:flex-row md:space-x-7'>
                   {/* <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
                     <img className='rounded object-cover object-center md:h-36 md:h-48' alt="WorldAnime" src={require("../nodejs-appointment-scheduler-appointments.jpg")} />
                   </div> */}
                   <div className='md:w-100 flex flex-col'>
                     <div className='p-y-6 pl-2'>
-                      <h2 className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight'>
+                      <a 
+                        className='text-indigo-500 my-3 md:mb-3 md:mt-0 text-2xl font-bold leading-8 tracking-tight hover:text-indigo-600' 
+                        href='/#/blogs/expressjs-video-streaming-server-with-aws'
+                        target='_blank' rel='noreferrer'
+                        >
                         NodeJS Video Streaming Server
-                      </h2>
+                      </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-bold'>
                     This is a project I developed to serve as a video streaming server built with ExpressJS that also utilizes AWS services to optimize video streaming securely. It also includes functionality to convert media files, such as .MOV and .MP4, to HLS protocol and uploading directly to AWS S3. Other AWS services include CloudFront, API gateway, and Lambda. To learn more about how AWS was integrated, check out the blog post by clicking the link below.</p>
