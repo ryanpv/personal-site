@@ -10,7 +10,7 @@ export default function VideoStreamerBlog() {
         </header>
       </div>
             
-      <div className='pl-2 prose mt-4 mb-3 max-w-none text-indigo-500 font-semibold'>
+      <div className='pl-2 prose mt-4 mb-3 max-w-none text-gray-300 font-semibold'>
 
         <div className='space-y-2 pt-6 pb-8 md:space-y-5'>
           This blog post discusses the architecture of my video streaming server that is built with ExpressJS. As the core architecture relies on some AWS services, I focus on how they were configured through the AWS console. The research phase for this topic was challenging for me because though there were many resources, most I came across were developed using different languages and libraries that had little support. However, I was able to put together the pieces by learning and understanding the concepts and technologies used. Therefore, this blog post will be a guide on this topic using Javascript. Additionally, many guides had skipped through some minor details of setting up the AWS services so I will try to go through the process step by step with each service I have integrated. Navigating back and forth between services will be necessary as the configurations are being completed. In the end I will also discuss some problems I faced during the development process.
@@ -25,7 +25,7 @@ export default function VideoStreamerBlog() {
         In this project, I use HTTP Live Streaming (HLS) protocol to serve videos to the client. This protocol splits the media files into separate shorter segments (“.ts” files) and creates a playlist/manifest (.m3u8) file. The manifest file describes the order, location, and other configurations of the media file, which are then sent to the client via HTTP. The “.ts” segments are retrieved from the same domain/resource path as the “.m3u8” file. It is far better performance to serve videos using this protocol compared to serving entire .mp4/.mov/etc files, which need to be completely downloaded before being able to play them. The segments are much smaller in size and are sent to the client via HTTP and allows the client to play the segments seamlessly. This is a much quicker method and provides better user experience.
         <br></br>
         <br></br>
-        In addition, I have implemented video upload functionality from the client, HLS format conversion, and then uploaded to AWS S3. Files are kept in memory in temp folders until they are uploaded to S3. After upload, the temp directories are deleted. The code to this is available to view in my Github: <a href='https://github.com/ryanpv/node-video-streamer' target='_blank' rel='noreferrer'><i style={{color: "blue"}}>https://github.com/ryanpv/node-video-streamer</i></a>
+        In addition, I have implemented video upload functionality from the client, HLS format conversion, and then uploaded to AWS S3. Files are kept in memory in temp folders until they are uploaded to S3. After upload, the temp directories are deleted. The code to this is available to view in my Github: <a href='https://github.com/ryanpv/node-video-streamer' target='_blank' rel='noreferrer'><i style={{ color: "orange", textDecoration: 'underline' }}>https://github.com/ryanpv/node-video-streamer</i></a>.
         <br></br>
         <br></br>
         </p>
@@ -75,7 +75,7 @@ export default function VideoStreamerBlog() {
           <br></br>
           2.	A custom permission policy to allow resources to assume this role and invoke Lambda functions:
           <br></br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o	Policy reference: <a href='https://docs.aws.amazon.com/apigateway/latest/developerguide/permissions.html' target='_blank' rel='noreferrer'><i style={{ color: "blue"}}>https://docs.aws.amazon.com/apigateway/latest/developerguide/permissions.html</i></a>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o	Policy reference: <a href='https://docs.aws.amazon.com/apigateway/latest/developerguide/permissions.html' target='_blank' rel='noreferrer'><i style={{ color: "orange", textDecoration: 'underline' }}>https://docs.aws.amazon.com/apigateway/latest/developerguide/permissions.html</i></a>
           <br></br>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;o	In the IAM console, using the link follow “API Gateway permissions model for invoking an API”. 
           <br></br>
