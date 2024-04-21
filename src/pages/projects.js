@@ -42,7 +42,7 @@ export default function PersonalProjects() {
                       </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-semibold'>
-                    This is a project I developed for a client I know personally. They requested the app for a business they are planning in the future. However, in the mean time, it can also be used to showcase their current works. Throughout the development life cycle, we discussed plans about designs and features to be implemented that we believe provides the best user experiences.
+                    PolishByCin is a web-app is an MVP that I developed for a client that is planning on creating their own nail services business in the future. Users can discover nail services offered, book appointments, and manage existing ones.
                     </p>
                     <a className='pl-2 text-base text-indigo-500 hover:font-bold font-semibold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://www.polishbycin.com' target='_blank' rel='noreferrer'>
                       <div className='flex m'>
@@ -79,7 +79,8 @@ export default function PersonalProjects() {
                       </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-semibold'>
-                    As someone who enjoys anime and is always looking for a new show to watch, I wanted to create a project that had something to do with anime. I believe that the original MyAnimeList(MAL).net is a fantastic site to get all your anime information, but I wanted to simplify it a bit more. The idea of MAL-Simplified is to be focused solely on anime titles rather than including manga, anime news, etc. Users would be able to quicky search any anime available on the MAL database and view basic information such as scores, synopsis, and trailers.
+                      WorldAnime is a web-app that allows users to discover anime titles and trailers. This app leverages the MyAnimeList API for all its anime data, such as scores, synopsis, and number of episodes. Users can also save the titles for later or to 
+                      keep track of what they are watching.
                     </p>
                     <a className='pl-2 text-base text-indigo-500 hover:font-bold font-semibold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://mal-simplified.web.app/' target='_blank' rel='noreferrer'>
                       <div className='flex m'>
@@ -116,7 +117,7 @@ export default function PersonalProjects() {
                       </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-bold'>
-                    Reddit Bookmark Manager is a web-app that allows users to organize their saved Reddit posts/comments/links in custom categories. Previously, only Reddit premium users had access to such a feature. This web-app allows users to do so without affecting their Reddit account. This web-app uses it's own database to store the saved data so if a user accidentally removes a save from their Reddit account, it would still exist in any category it is saved in.
+                    Reddit Bookmark Manager is a web-app that allows users to organize their saved Reddit posts/comments/links in custom categories. Data stored in their official Reddit account will not be affected.
                     </p>
                     <a className='pl-2 text-base text-indigo-500 hover:font-bold font-semibold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/reddit-bookmark-manager-client' target='_blank' rel='noreferrer'>
                       <div className='flex m'>
@@ -148,7 +149,8 @@ export default function PersonalProjects() {
                       </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-bold'>
-                    This is a project I developed to serve as a video streaming server built with ExpressJS that also utilizes AWS services to optimize video streaming securely. It also includes functionality to convert media files, such as .MOV and .MP4, to HLS protocol and uploading directly to AWS S3. Other AWS services include CloudFront, API gateway, and Lambda. To learn more about how AWS was integrated, check out the blog post by clicking the link below.</p>
+                    This is a project I developed to serve as a video streaming server built with ExpressJS that also utilizes AWS services to optimize video streaming securely. It also includes functionality to convert media files, such as .MOV and .MP4, 
+                    to HLS protocol and uploading directly to AWS S3. Other AWS services include CloudFront, API gateway, and Lambda. To learn more about how AWS was integrated, check out the blog post by clicking the link below.</p>
                     <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='/#/blogs/expressjs-video-streaming-server-with-aws'>
                       <div className='flex hover:font-bold font-semibold text-indigo-500'>
                         <BsArrowRight />
