@@ -42,7 +42,7 @@ export default function PersonalProjects() {
                       </a>
                     </div>
                     <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-semibold'>
-                    PolishByCin is a web-app is an MVP that I developed for a client that is planning on creating their own nail services business in the future. Users can discover nail services offered, book appointments, and manage existing ones.
+                    PolishByCin is a web-app I developed for a client to help them manage their future nail service business. Users can discover nail services offered, book appointments, and manage existing ones.
                     </p>
                     <a className='pl-2 text-base text-indigo-500 hover:font-bold font-semibold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://www.polishbycin.com' target='_blank' rel='noreferrer'>
                       <div className='flex m'>
@@ -116,7 +116,7 @@ export default function PersonalProjects() {
                         Reddit Bookmark Manager
                       </a>
                     </div>
-                    <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-bold'>
+                    <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-semibold'>
                     Reddit Bookmark Manager is a web-app that allows users to organize their saved Reddit posts/comments/links in custom categories. Data stored in their official Reddit account will not be affected.
                     </p>
                     <a className='pl-2 text-base text-indigo-500 hover:font-bold font-semibold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/reddit-bookmark-manager-client' target='_blank' rel='noreferrer'>
@@ -148,7 +148,7 @@ export default function PersonalProjects() {
                         NodeJS Video Streaming Server
                       </a>
                     </div>
-                    <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-bold'>
+                    <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-semibold'>
                     This is a project I developed to serve as a video streaming server built with ExpressJS that also utilizes AWS services to optimize video streaming securely. It also includes functionality to convert media files, such as .MOV and .MP4, 
                     to HLS protocol and uploading directly to AWS S3. Other AWS services include CloudFront, API gateway, and Lambda. To learn more about how AWS was integrated, check out the blog post by clicking the link below.</p>
                     <a className='pl-2 text-base text-white font-medium leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='/#/blogs/expressjs-video-streaming-server-with-aws'>
