@@ -56,14 +56,18 @@ export default function Aboutpage() {
             <br></br>
         
             <p className='font- mt-4'>
-              I am a full-stack software developer with background experience as a Registered Nurse. My passion lies in problem-solving and continuous learning, and I aim to leverage my background with technology to enhance user experiences.
+              I am a full-stack software developer with background experience as a Registered Nurse. My passion lies in problem-solving and continuous learning. I seek to utilize
+              my acquired skills of problem-solving and collaboration from high-pressure, dynamic environments to better understand and improve user experiences.
+
               <br></br>
               <br></br>
 
               <p className='text-center font-bold'>What I'm currently working on:</p>
-              I am developing a beauty service app (nail services) in collaboration with industry professionals to understand and enhance user experiences. This app provides customers the ability to request, update, and cancel appointments through their
-              own account on the site. The site is currently live at <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://www.polishbycin.com' target='_blank' rel='noreferrer'><i>https://polishbycin.com</i></a>. 
-              If you would like to follow along with the journey, you can take a look at the code progress here: <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i>Github/ryanpv</i></a>
+              I am currently collaborating with nail industry professionals to develop a web-application that allows booking and management of appointments. Users or customers will
+              have the ability to request, update, and cancel appointments through their
+              own account on the site. You can view the MVP at <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://www.polishbycin.com' target='_blank' rel='noreferrer'><i>https://polishbycin.com</i></a>. 
+              If you would like to follow along with the journey, you can take a look at the code progress here:&nbsp;
+              <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i>Github/ryanpv</i></a>.
               <br></br>
               <br></br>
 
