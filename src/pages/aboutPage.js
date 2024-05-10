@@ -1,5 +1,7 @@
 import React from 'react'
 import { VscGithub } from "react-icons/vsc";
+import { useLocation } from 'react-router-dom';
+
 
 // Skills icons
 import { AiOutlineLinkedin, AiOutlineFilePdf, AiOutlineHtml5 } from "react-icons/ai";
@@ -9,7 +11,10 @@ import { TbBrandMongodb, TbBrandTypescript, TbBrandCss3 } from "react-icons/tb";
 import { RiJavascriptLine } from "react-icons/ri";
 import { BsBootstrap } from "react-icons/bs";
 
+
 export default function Aboutpage() {
+  const location = useLocation();
+
   return (
     <>
       <div className='text-white h-full px-3 sm:p-20 sm:max-w-screen-2xl mx-auto overflow-hidden'>
@@ -57,21 +62,27 @@ export default function Aboutpage() {
         
             <p className='font- mt-4'>
               I am a full-stack software developer with background experience as a Registered Nurse. My passion lies in problem-solving and continuous learning. I seek to utilize
-              my acquired skills of problem-solving and collaboration from high-pressure, dynamic environments to better understand and improve user experiences.
+              my problem-solving and collaboration skills acquired from high-pressure, dynamic environments to better understand and improve the user experience.
 
               <br></br>
               <br></br>
 
               <p className='text-center font-bold'>What I'm currently working on:</p>
-              I am currently collaborating with nail industry professionals to develop a web-application that allows booking and management of appointments. Users or customers will
-              have the ability to request, update, and cancel appointments through their
-              own account on the site. You can view the MVP at <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://www.polishbycin.com' target='_blank' rel='noreferrer'><i>https://polishbycin.com</i></a>. 
-              If you would like to follow along with the journey, you can take a look at the code progress here:&nbsp;
-              <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i>Github/ryanpv</i></a>.
+              Recently, I've collaborated with nail industry professionals to develop a web-application to help them manage their busisness and appointment bookings. 
+              You can view the MVP at <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://www.polishbycin.com' target='_blank' rel='noreferrer'><i>https://polishbycin.com</i></a>. 
+              More updates are to come as we decide on new features to improve the user experience. If you would like to follow along with the journey, you can take a look at the code progress here:&nbsp;
+              <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://github.com/ryanpv/beauty-service-app' target='_blank' rel='noreferrer'><i>Github - PolishByCin</i></a>.
               <br></br>
               <br></br>
 
-              I'm always open to connect and have a chat so send me a message!
+              In the mean time, I am currently exploring mobile developement using React-Native. As part of this learning journey, I am working on an app that enables users to upload their own videos.
+              You can follow the code progress with me here: &nbsp;
+              <a className='hover:text-orange-500 hover:underline text-orange-400' href='https://github.com/ryanpv/mobile-job-app' target='_blank' rel='noreferrer'><i>Github - Mobile App</i></a>.
+              <br></br>
+              <br></br>
+
+              If you'd like to chat, I'm always happy to connect so <a className='hover:text-orange-500 hover:underline text-orange-400' 
+              href={ location.pathname.includes("/blogs") ? "/#/contact" : "#/contact" }><i>send me a message</i></a> !
             </p>
 
             <hr className='border border-orange-400 my-5'></hr>
