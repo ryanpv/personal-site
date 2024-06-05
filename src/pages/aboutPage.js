@@ -81,9 +81,17 @@ export default function Aboutpage() {
               <br></br>
               <br></br>
 
-              If you'd like to chat, I'm always happy to connect so <a className='hover:text-orange-500 hover:underline text-orange-400' 
+              <p className='text-center font-bold'>Hobbies and Interests:</p>
+              On my free time I love to watch anime, kdramas, drinking bubble tea, or even play video games. I play mostly RPGs because I enjoy a good story plot, but I also sometimes play games like Warzone.
+              If you have any recommendations or just want to chat about anything like "Do you consider One Piece to be one of the big three?" then reach out to me!
+              <br></br>
+              <br></br>
+
+              I'm always happy to connect so <a className='hover:text-orange-500 hover:underline text-orange-400' 
               href={ location.pathname.includes("/blogs") ? "/#/contact" : "#/contact" }><i>send me a message</i></a> !
             </p>
+
+            
 
             <hr className='border border-orange-400 my-5'></hr>
             
