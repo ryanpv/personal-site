@@ -1,20 +1,20 @@
 {
   "files": {
     "main.css": "/static/css/main.5ebacd8b.css",
-    "main.js": "/static/js/main.43da5e5a.js",
+    "main.js": "/static/js/main.8c24d4a6.js",
     "static/media/WorldAnime-SS.png": "/static/media/WorldAnime-SS.3890007b3d92f6d5c1cd.png",
     "static/media/PolishByCin-SS.png": "/static/media/PolishByCin-SS.1b59fa82fbfb16e254aa.png",
     "static/media/starry-sky.jpg": "/static/media/starry-sky.5a045507cf078eab6f2e.jpg",
     "static/media/profile-photo.jpg": "/static/media/profile-photo.32cf69fb1eb650b99aa0.jpg",
+    "static/media/Ryan Voong - Software Developer Resume 2024.pdf": "/static/media/Ryan Voong - Software Developer Resume 2024.7677b3ff909b4f6d2aef.pdf",
     "static/media/HLS Lambda Func.png": "/static/media/HLS Lambda Func.64203400a27494ca7dca.png",
-    "static/media/Ryan Voong - Software developer 2024 resume.pdf": "/static/media/Ryan Voong - Software developer 2024 resume.914b50ec764da0214452.pdf",
     "static/media/Reddit-bookmark-manager-screenshot.jpg": "/static/media/Reddit-bookmark-manager-screenshot.017663551e3f42eaf049.jpg",
     "index.html": "/index.html",
     "main.5ebacd8b.css.map": "/static/css/main.5ebacd8b.css.map",
-    "main.43da5e5a.js.map": "/static/js/main.43da5e5a.js.map"
+    "main.8c24d4a6.js.map": "/static/js/main.8c24d4a6.js.map"
   },
   "entrypoints": [
     "static/css/main.5ebacd8b.css",
-    "static/js/main.43da5e5a.js"
+    "static/js/main.8c24d4a6.js"
   ]
 }
