@@ -164,12 +164,7 @@ export default function Aboutpage() {
               </a>
               .<br></br>
               <br></br>
-              In the mean time, I am
-              working on improving my
-              skills in Python to help
-              me dive into more AI/ML
-              projects.
-              <br></br>
+              In the meantime, I am working on improving my Python skills to dive deeper into AI and machine learning projects. I'm currently working on a React Native application that will integrate computer vision technology to encourage greater engagement in personal health.              <br></br>
               <br></br>
               <p className="text-center font-bold">
                 Hobbies and Interests:
