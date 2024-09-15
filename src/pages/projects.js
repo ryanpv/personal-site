@@ -59,10 +59,40 @@ export default function PersonalProjects() {
                   </div>
                 </div>
               </div>
-{/* ////////////////////////////////// WORLD ANIME APP ///////////////////////////////////// */}
+{/* ////////////////////////////////// AI Voice Chatbot ///////////////////////////////////// */}
               <div 
                 className='py-4 flex justify-center'
                 data-aos='fade-left'
+                data-aos-duration='1500'
+              >
+                <div className='w-full flex flex-col md:flex-row md:space-x-7 mt-4'>
+                  <div className='md:w-1/3 h-full overflow-hidden rounded-md'>
+                    <img className='rounded object-cover object-center md:h-36 md:h-60 mx-auto' alt="AI Voice Chatbot" src={require("../Chatbot_screenshot.png")} />
+                  </div>
+                  <div className='md:w-2/3 flex flex-col mt-5 md:mt-0'>
+                    <div className='p-y-6 pl-2'>
+                      <a 
+                        className='text-indigo-500 md:mb-3 text-2xl font-bold leading-8 tracking-tight hover:text-indigo-600' 
+                        href='https://github.com/ryanpv/ai-chatbot/blob/main/README.md' target='_blank' rel='noreferrer'
+                        >
+                        AI Voice Chatbot
+                      </a>
+                    </div>
+                    <p className='pl-2 prose mb-3 max-w-none text-gray-700 font-semibold'>
+                    This project is a chatbot that allows users to interact with it using their voice recordings and receive an audio response. The server handles the interaction by leveraging OpenAI's Whisper-1 model and Chat Completions API. The voice is generated using Elevenlabs API, which has many other options for voices.                    </p>
+                    <a className='pl-2 text-base text-indigo-500 hover:font-bold font-semibold leading-6 text-primary-500 hover:text-primary-600 dark:hover:text-primary-400' href='https://github.com/ryanpv/ai-chatbot/blob/main/README.md' target='_blank' rel='noreferrer'>
+                      <div className='flex m'>
+                        <BsArrowRight />
+                        &nbsp; See the GitHub
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+{/* ////////////////////////////////// WORLD ANIME APP ///////////////////////////////////// */}
+              <div 
+                className='py-4 flex justify-center'
+                data-aos='fade-right'
                 data-aos-duration='1500'
               >
                 <div className='w-full flex flex-col md:flex-row md:space-x-7 mt-4'>
@@ -100,7 +130,7 @@ export default function PersonalProjects() {
 {/* ////////////////////////////////// REDDIT BOOKMARK MANAGER ///////////////////////////////////// */}
               <div 
                 className='py-4 flex justify-center'
-                data-aos='fade-right'
+                data-aos='fade-left'
                 data-aos-duration='1500'
               >
                 <div className='w-full flex flex-col md:flex-row md:space-x-7 mt-4'>
@@ -131,7 +161,7 @@ export default function PersonalProjects() {
 {/* ////////////////////////////////// NODEJS VIDEO STREAMING SERVER ///////////////////////////////////// */}
               <div 
                 className='py-4 flex justify-center'
-                data-aos='fade-left'
+                data-aos='fade-right'
                 data-aos-duration='1500'
               >
                 <div className='w-full flex flex-col md:flex-row md:space-x-7'>
