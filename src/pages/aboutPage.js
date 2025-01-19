@@ -105,7 +105,7 @@ export default function Aboutpage() {
             </h1>
             <br></br>
 
-            <p className="font- mt-4">
+            <p className="font- text-lg mt-4">
               I am a full-stack software
               developer with background
               experience as a Registered
@@ -115,68 +115,39 @@ export default function Aboutpage() {
               seek to utilize my
               problem-solving and
               collaboration skills
-              acquired from
-              high-pressure, dynamic
-              environments to better
-              understand and improve the
-              user experience.
+              I have acquired from my nursing
+              career to better
+              understand and improve
+              user experiences.
               <br></br>
               <br></br>
               <p className="text-center font-bold">
                 What I'm currently
                 working on:
               </p>
-              Recently, I've
-              collaborated with nail
-              industry professionals to
-              develop a web-application
-              to help them manage their
-              busisness and appointment
-              bookings. You can view the
-              MVP at{" "}
-              <a
-                className="hover:text-orange-500 hover:underline text-orange-400"
-                href="https://www.polishbycin.com"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i>
-                  https://polishbycin.com
-                </i>
-              </a>
-              . More updates are to come
-              as we decide on new
-              features to improve the
-              user experience. If you
-              would like to follow along
-              with the journey, you can
-              take a look at the code
-              progress here:&nbsp;
-              <a
-                className="hover:text-orange-500 hover:underline text-orange-400"
-                href="https://github.com/ryanpv/beauty-service-app"
-                target="_blank"
-                rel="noreferrer"
-              >
-                <i>
-                  Github - PolishByCin
-                </i>
-              </a>
-              .<br></br>
+              
+
               <br></br>
-              In the meantime, I am working on improving my Python skills to dive deeper into AI and machine learning projects. I'm currently working on a React Native application that will integrate computer vision technology to encourage greater engagement in personal health.              <br></br>
+              Recently, I have been diving more into machine learning technologies, 
+              such as TensorFlow and TensorFlow.js. With widespread use of machine
+              learning in major industries, such as healthcare, I believe it is 
+              important to understand the potential positive impacts it can have
+              on society. My aim is to use my skills and knowledge as a software 
+              developer to try and implement models in impactful
+              projects and have fun while doing it!
+            
+              
+              <br></br>
               <br></br>
               <p className="text-center font-bold">
                 Hobbies and Interests:
               </p>
               On my free time I love to
               watch anime, kdramas,
-              drinking bubble tea, or
-              even play video games. I
-              play mostly RPGs because I
-              enjoy a good story plot,
-              but I also sometimes play
-              games like Warzone. If you
+              drinking bubble tea, and also
+              play video games. I like to 
+              play RPGs mostly because I
+              enjoy a good story plot. If you
               have any recommendations
               or just want to chat about
               anything like "Do you
